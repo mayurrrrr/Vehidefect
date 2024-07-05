@@ -10,8 +10,8 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 
 # Set page config
-st.set_page_config(page_icon="💬", layout="wide",
-                   page_title="VEHI-Defect: Vehicle Defect Transparency Tool")
+st.set_page_config(page_icon="🚘", layout="wide",
+                   page_title="Vehi-Defect")
 
 
 def icon(emoji: str):
@@ -22,9 +22,9 @@ def icon(emoji: str):
     )
 
 
-icon("🏎️")
+icon("🕵🚘")
 
-st.subheader("VEHI-Defect: Vehicle Defect Transparency Tool", divider="rainbow", anchor=False)
+st.subheader("📋🔍Vehi-Defect: Vehicle Defect Transparency Tool ⚙️", divider="rainbow", anchor=False)
 
 
 # Function to get data from the NHTSA API
